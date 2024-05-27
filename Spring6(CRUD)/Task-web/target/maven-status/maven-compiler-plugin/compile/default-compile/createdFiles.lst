@@ -1,0 +1,14 @@
+web\service\UserService.class
+web\controller\IndexController.class
+web\config\AppConfig.class
+web\config\MvcConfig.class
+web\config\ApplicationInit.class
+web\service\UserServiceImpl.class
+web\controller\UsersController.class
+web\controller\NoCacheFilter.class
+web\config\listener\AppContextListener.class
+web\aspect\LoggingAspect.class
+web\DataInitializer.class
+web\dao\UserDao.class
+web\dao\UserDaoImpl.class
+web\model\User.class

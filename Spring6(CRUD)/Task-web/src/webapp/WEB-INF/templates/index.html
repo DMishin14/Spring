@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:with="lang=${#locale.language}" th:lang="${lang}" lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <p class="lead">Здесь вы можете создать и удалить пользователя</p>
+            <ul class="list-unstyled">
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center"><a type="button" th:href="@{/users}" class="btn btn-secondary bg-secondary text-white">Посмотреть список имеющихся пользователей</a></div>
+    </div>
+</div>
+
+</body>
+</html>
